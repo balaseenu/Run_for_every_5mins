@@ -9,11 +9,6 @@ Created on Fri Nov 14 08:45:03 2025
 from tvDatafeed import TvDatafeed, Interval
 import requests
 import os
-
-#set environment variable
-def set_environ():
-    os.environ['TOKEN'] = '8380163368:AAHq78IVBsKUAenRc_mrDtd-tcGpun_D9kM'
-    os.environ['CHAT_ID'] = '8451555149'
     
 #get Forex data 
 def get_forex_data():
@@ -65,4 +60,5 @@ if __name__ == '__main__':
     else:
         pass
         
+
     
